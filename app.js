@@ -35,6 +35,7 @@ app.use(express.static("public"))
     const url = "https://us17.api.mailchimp.com/3.0/lists/ae2a66002e";
     const options ={
       method: "POST",
+      //API authorization code goes here, redacted for security reasons.
     }
 
     const request = https.request(url, options, function(response){
